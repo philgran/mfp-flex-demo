@@ -22,9 +22,12 @@ Handlebars.registerPartial("solution-1", Handlebars.template({"compiler":[6,">= 
 Handlebars.registerPartial("solution-2", Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var stack1;
 
-  return "<div class=\"flex-container solution-2\">\n  <div class=\"flex-1\">\n"
+  return "<div class=\"flex-container solution-2 text-center\">\n  <div class=\"flex-1\">\n"
     + ((stack1 = this.invokePartial(partials.square,depth0,{"name":"square","data":data,"indent":"    ","helpers":helpers,"partials":partials})) != null ? stack1 : "")
     + "  </div>\n  <div class=\"flex-2\">\n"
+    + ((stack1 = this.invokePartial(partials.square,depth0,{"name":"square","data":data,"indent":"    ","helpers":helpers,"partials":partials})) != null ? stack1 : "")
+    + ((stack1 = this.invokePartial(partials.square,depth0,{"name":"square","data":data,"indent":"    ","helpers":helpers,"partials":partials})) != null ? stack1 : "")
+    + ((stack1 = this.invokePartial(partials.square,depth0,{"name":"square","data":data,"indent":"    ","helpers":helpers,"partials":partials})) != null ? stack1 : "")
     + ((stack1 = this.invokePartial(partials.square,depth0,{"name":"square","data":data,"indent":"    ","helpers":helpers,"partials":partials})) != null ? stack1 : "")
     + "  </div>\n  <div class=\"flex-1\">\n"
     + ((stack1 = this.invokePartial(partials.square,depth0,{"name":"square","data":data,"indent":"    ","helpers":helpers,"partials":partials})) != null ? stack1 : "")
