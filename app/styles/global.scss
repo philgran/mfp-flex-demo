@@ -12,16 +12,24 @@ body {
 .flex-6 { flex: 6; }
 .flex-row { flex-direction: row; }
 .flex-col { flex-direction: column; }
-.flex-center { justify-content: center; }
+.flex-center { align-items: center; }
+.text-center { text-align: center; }
 
-// Partial Styling
-.container {
+.flex-container {
+  display: flex;
   background-color: purple;
   padding: 10px;
+  color: #DDD;
 }
 
 .square {
   background-color: red;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
+}
+
+.logo {
+  background-color: blue;
+  height: 60px;
+  width: 200px;
 }
